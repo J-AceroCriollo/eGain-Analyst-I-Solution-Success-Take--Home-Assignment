@@ -21,11 +21,13 @@ Installation
 
 Usage
     The chatbot can recognize several ways to begin:
+    
     Option 1: Describe the issue
     User:
     - "my package is lost"
     - "package not delivered"
     - "package has not arrived"
+    
     Option 2: Provide a tracking number
     User:
     2025123456(10 digit number starting with '2025' will prompt delivered conversation path)
