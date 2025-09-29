@@ -1,9 +1,11 @@
 # eGain-Analyst-I-Solution-Success-Take--Home-Assignment
 Chat Bot: Scenario 1
 Uses only HTML, CSS, and JavaScript
+
 Prerequisites
     Any modern web browser
     No server or dependencies needed
+
 Installation
     1. Download or clone all project files
     2. Ensure all three files are in the same directory
