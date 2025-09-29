@@ -34,7 +34,7 @@ Usage
     1234567890(any 10 digit number will prompt still in transit convesration path)
 
 Example Conversation flow
- 
+
     Bot: Hello, how can I assist you today?
     You: My package is lost
     Bot: I'm sorry to hear that. I'd be glad to assist you. Please provide your tracking number.
@@ -68,6 +68,7 @@ Case 5: Multiple Inquiries
 - Should reset conversation flow
 
 Technical Implementation
+
 State Machine with 5 conversation states
     States:
     - 'initial'
@@ -88,6 +89,7 @@ Input validation
     - fallback response for unrecognized input
 
 Design Decisions
+
 Why JavaScript?
 - easy to understand and evaluate
 - demonstrates core Javascript profieciency
