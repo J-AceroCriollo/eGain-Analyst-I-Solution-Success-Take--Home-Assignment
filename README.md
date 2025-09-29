@@ -78,13 +78,13 @@ State Machine with 5 conversation states
     - 'check_location'
     - 'ask_for_new_inquiry'
 
-    Key Functions:
+Key Functions:
     - addMessage(sender, text) - displays messages in chat interface
     - processUserMessage(message) - core conversation logic and state management
     - processTrackingNumber(number) - simulates database lookup
     - askForNewInquiry() - enables conversation continuity
 
-    Input validation: 
+Input validation: 
     - Tracking Number must be exactly 10 digits
     - keyword matching for natural language understanding
     - fallback response for unrecognized input
