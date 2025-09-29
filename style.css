@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    color: #333;
+    border-bottom: 1px solid #e2e1e1;
+    background-color: #f9f9f9;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.chat-container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow: hidden; /* keeps messages within the chat box */
+}
+
+.chat-box {
+    flex-grow: 1; /* fills available space between header and input */
+    padding: 20px;
+    overflow-y: auto;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+#user-input {
+    width: calc(100% - 40px); /* accounts for padding on both sides*/
+    padding: 10px 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+.message {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    max-width: 80%; /* prevents bubbles from taking about full space*/
+    word-wrap: break-word; /* makes text stay within its bubble  */
+    display: block; /* required for align-self positioning in flex container */
+}
+
+.bot-message {
+    background-color: #e2e2e2;
+    align-self: flex-start; /* aligns bot's messages to the left side */
+    margin-right: auto; /* pushes element to the left */
+}
+
+.user-message {
+    background-color: #ae12ec;
+    color: #fff;
+    align-self: flex-end; /* aligns user's messages to the right side */
+    margin-left: auto; /* pushes element to the right */
+}
