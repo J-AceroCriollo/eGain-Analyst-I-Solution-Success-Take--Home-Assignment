@@ -7,12 +7,16 @@ Prerequisites
     No server or dependencies needed
 
 Installation
+    
     1. Download or clone all project files
+    
     2. Ensure all three files are in the same directory
         - 'index.html'
         - 'style.css'
         - 'script.js'
+    
     3. Open 'index.html' on your browser
+    
     4. The chatbot will automatically greet you and be ready to use
 
 Usage
