@@ -33,17 +33,18 @@ Usage
     2025123456(10 digit number starting with '2025' will prompt delivered conversation path)
     1234567890(any 10 digit number will prompt still in transit convesration path)
 
-Example Conversation flow 
-Bot: Hello, how can I assist you today?
-You: My package is lost
-Bot: I'm sorry to hear that. I'd be glad to assist you. Please provide your tracking number.
-You: 2025123456
-Bot: Thank you. I'm checking the status for tracking number: 2025123456.
-Bot: Our system shows that your package was delivered today. Have you checked common areas like the front door, mailroom, or with reception?
-You: No
-Bot: Thank you for confirming. I've started the investigation process. You will receive an update in 3-5 business days.
-Bot: Your case number is A-1234567.
-Bot: Would you like to start a new inquiry?
+Example Conversation flow
+ 
+    Bot: Hello, how can I assist you today?
+    You: My package is lost
+    Bot: I'm sorry to hear that. I'd be glad to assist you. Please provide your tracking number.
+    You: 2025123456
+    Bot: Thank you. I'm checking the status for tracking number: 2025123456.
+    Bot: Our system shows that your package was delivered today. Have you checked common areas like the front door, mailroom, or with reception?
+    You: No
+    Bot: Thank you for confirming. I've started the investigation process. You will receive an update in 3-5 business days.
+    Bot: Your case number is A-1234567.
+    Bot: Would you like to start a new inquiry?
 
 Test Cases
 Case 1: Delivered Package
