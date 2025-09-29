@@ -70,6 +70,7 @@ Case 5: Multiple Inquiries
 Technical Implementation
 
 State Machine with 5 conversation states
+    
     States:
     - 'initial'
     - 'waiting_for_tracking_number'
