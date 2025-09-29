@@ -1,4 +1,6 @@
 # eGain-Analyst-I-Solution-Success-Take--Home-Assignment
+Note: This project's commit history includes contributions from my two GitHub accounts, [TheRobin99] and [J-AceroCriollo], both of which are my personal accounts. This was done to keep work and personal projects separate.
+
 Chat Bot: Scenario 1
 Uses only HTML, CSS, and JavaScript
 
